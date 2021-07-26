@@ -17,6 +17,8 @@ public class URLConnectionTest {
         System.out.println("문서 내용 : ");
         InputStream input = naverOn.getInputStream();
 
+
+
         int i = 500 ;
         int c ;
         while (((c = input.read()) != -1) && (--i > 0)){

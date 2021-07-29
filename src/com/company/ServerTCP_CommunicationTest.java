@@ -6,7 +6,7 @@ import java.io.OutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-class Server {
+class ServerTCP_CommunicationTest {
     public static void main(String args[]) throws IOException {
         int port = Integer.parseInt(args[0]) ;
         //서버 소켓 객체 생성

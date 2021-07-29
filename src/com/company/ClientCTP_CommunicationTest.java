@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.Socket;
 
-public class Client {
+public class ClientCTP_CommunicationTest {
     public static void main(String[] args) throws IOException {
         String server = args[0];
         int port = Integer.parseInt(args[1]);
